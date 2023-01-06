@@ -1,0 +1,120 @@
+
+
+app-items {
+   margin-left: 0%;
+}
+i {
+   font-size: 20px;
+   color: #0C747E;
+   list-style: none;
+}
+.d-flex {
+   margin-left: 550%;
+}
+.d-flex i {
+   margin-left: 25px;
+   font-size: 22px;
+}
+a:hover {
+   cursor: pointer;
+}
+.savebtn {
+   margin-left: 580%;
+   margin-top: 70px;
+  cursor: pointer;
+}
+.dropdown-toggle{
+  color:#0C747E;
+  cursor: pointer;
+}
+.iteraction{
+  margin-left: 8px;
+}
+
+.inline{
+  margin-bottom: 3px;
+  padding: 0px;
+  font-size: 12px;
+  font-weight: 700;
+
+}
+.graphics{
+  margin-bottom: 6px;
+    font-size: 6px;
+    font-weight: 600;
+}
+.custom{
+  margin-top: 3px;
+  padding: 0px;
+  font-weight: 700;
+  font-size: 10px;
+}
+
+span{
+   font-size: 12px;
+   font-weight: bold;
+   color: #0C747E;
+}
+.card{
+  margin-top: 40px;
+   margin-left: 480px;
+   height: 220px;
+   border-radius: 15px;
+   border: 2.2px  solid #0C747E;
+}
+.icon:hover{
+  cursor: pointer;
+}
+.row{
+  margin-right: 5px;
+}
+.vector{
+  margin: 5px 22px;
+}
+#tooltipText{
+   position: absolute;
+   top: 0px;
+   transform: translateX(-70%);
+   background-color: #000;
+   color: #fff;
+   padding: 4px 6px;
+   white-space: nowrap;
+   border-radius: 2px;
+   visibility: hidden;
+   opacity: 0;
+   transition: opacity 0.5s ease;
+}
+#tooltipText::after{
+   content: "";
+   position: absolute;
+   left: 50%;
+   bottom: 100%;
+   transform: translateX(-50%);
+   border: 8px solid;
+   border-color: #0000 #0000 #000 #0000 ;
+}
+.content:hover #tooltipText{
+   top: 40px;
+   visibility: visible;
+   opacity: 1;
+}
+
+.dropdown-toggle{
+  border-top: 2px solid #0C747E;
+  padding: 7px 0px;
+  padding-left: 3px;
+  margin-left: 2px;
+}
+.drop{
+   border-top: 2px solid #0C747E;
+}
+.col-md-6{
+   padding-left: 2px;
+}
+.custom{
+   border-bottom: 2px solid #0C747E;
+}
+/* .inline{
+   border-top: 2px solid #0C747E;
+} */
+
